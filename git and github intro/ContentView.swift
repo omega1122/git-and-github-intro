@@ -10,13 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack{
-            Text(" 2 GIT is here" )
+            Text(" 3 GIT is here" )
                 .font(.system(size: 60))
                 .fontWeight(.black)
             
             Image(systemName: "globe")
                 .font(.system(size: 180))
-        }.foregroundColor(.green)
+        }.foregroundColor(.yellow)
     }
 }
 
