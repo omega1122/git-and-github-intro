@@ -16,6 +16,8 @@ struct ContentView: View {
             
             Image(systemName: "globe")
                 .font(.system(size: 180))
+            Circle()
+                .frame(width: 200, height: 200, alignment: .bottom)
         }.foregroundColor(.green)
     }
 }
